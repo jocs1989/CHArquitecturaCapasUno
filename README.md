@@ -1,0 +1,2 @@
+# CHArquitecturaCapasUno
+DIVIDIR EN CAPAS NUESTRO PROYECTO
