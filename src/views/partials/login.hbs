@@ -1,16 +1,53 @@
 
- 
-    <!-- login div -->
-<div class="login">
-<!-- login header -->
-  <h1 id="header">Login</h1>
-<!-- start da login goodness -->
-  <form id="form" action="/api/login/" method="post">
-    
-    <input type="text" placeholder="Cual es  tu email" maxlength="100" name="username" id="username" required><br />
-        <input type="password" placeholder="password" name="password" id="password" required><br />
-        <span>{{acceso}}</span>
+        <!--breadcumb area start -->
+        <div class="breadcumb-area overlay pos-rltv">
+            <div class="bread-main">
+                <div class="bred-hading text-center">
+                    <h5>Login </h5> </div>
+                <ol class="breadcrumb">
+                    <li class="home"><a title="Go to Home Page" href="/api/Productos">Home</a></li>
+                    
+                </ol>
+            </div>
+        </div>
+        <!--breadcumb area end -->
+        
+        <!-- Account Area Start -->
+        <div class="account-area ptb-80">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <form action="#" class="login-side">
+                            <div class="login-reg">
+                                <h3>Login</h3>
+                                <div class="input-box mb-20">
+                                    <label class="control-label">E-Mail</label>
+                                    <input type="email" placeholder="E-Mail" value="" name="email" class="info">
+                                </div>
+                                <div class="input-box">
+                                    <label class="control-label">Password</label>
+                                    <input type="password" placeholder="Password" value="" name="password" class="info">
+                                </div>
+                            </div>
+                            <div class="frm-action">
+                                <div class="input-box tci-box">
+                                    <a href="#" class="btn-def btn2">Login</a>
+                                </div>
+                               
+                                <span>
+                             <input class="remr" type="checkbox"> Remember me 
+                         </span>
+                                <a href="#" class="forgotten forg">Forgotten Password</a>
+                                 <div class="input-box tci-box">
+                                    <a href="/api/user" class="btn-def btn2">Register</a>
+                                </div>
+                            </div>
 
-    <button type="submit" class="btn btn-primary"><span>Login</span></button>
-  </form>
-</div>
+                            
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Account Area End -->

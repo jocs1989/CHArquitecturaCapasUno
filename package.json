@@ -6,10 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node src/server.js",
-    "mongo": "nodemon src/server.js",
-    "archivo": "nodemon src/server.js",
-    "memoria": "nodemon src/server.js",
-    "firebase": "nodemon src/server.js"
+    "mongo": "nodemon src/server.js"
+   
   },
   "repository": {
     "type": "git",
